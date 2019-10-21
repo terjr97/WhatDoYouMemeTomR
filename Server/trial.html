@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jquery Trial</title>
+</head>
+<body>
+    <h1 id= "1st">This is a trial</h1>
+    <h1 1d= "2nd">This is also a trial</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    $(function(){
+
+        let size = 32
+
+        $("h1").on('click',function(){
+
+            $(this).css({color:"gold", fontSize: size+=size})
+        })
+
+    })
+    </script>
+           <!--  background color would not work above because it would require the whole thing to be in 
+            a different format, skip the - mark and just make the new words begin with a capital leter.
+            example: backroundColor. Also, is javascript, single and double quotes are the same.-->
+</body>
+</html>
