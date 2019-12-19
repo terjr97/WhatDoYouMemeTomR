@@ -1,0 +1,30 @@
+.active {
+    background-color: aliceblue;
+    font-weight: bold;
+}
+.kind-of-active {
+    background-color: rgb(244, 248, 252);
+    font-weight: 100;
+}
+
+.login-page .fas.fa-exclamation-triangle {
+    display: none;
+}
+
+    .login-page .is-danger .fa-exclamation-triangle {
+        display: inline;
+        color: red;
+    }
+    .login-page .is-danger .input {
+        border-color: red;
+    }
+
+.is-clickable {
+    cursor: pointer;
+}
+.is-expanded {
+    flex-grow: 1;
+}
+#vanillatoasts-container{
+    z-index: 100;
+}
